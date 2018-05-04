@@ -10,12 +10,11 @@ js:
 ---
 
 <div class="container">
-    <form action="get" id="site_search">
-        <div class="input-group">
-            <input id="search_box" type="text" placeholder="type here and enter" />
-            <button id="search-btn" type="submit">SEARCH</button>
-        </div>
-    </form>
+    <form id="search-form">
+	  <input id="search-keyword" type="text" autofocus />
+	  <button id="search-btn" type="submit">SEARCH</button>
+	    <ul id="search_results"></ul>
+	 </form>
 </div>
 	
 	<script>
