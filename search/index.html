@@ -9,26 +9,6 @@ js:
     - "/search/search.js"
 ---
 
-<form id="search-form">
-	  <input id="search-keyword" type="text" autofocus />
-	  <button id="search-btn" type="submit">SEARCH</button>
-	 </form>
-	
-	<script>
-	  if (typeof jQuery == 'undefined') {
-	    document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
-	  }
-	</script>
-	
-	<script>
-	   $(document).ready(function(){
-	     $('#search-form').submit(function(event){
-	      event.preventDefault();
-	      window.location = "/search?keyword=" + $('#search-keyword').val();
-	     });
-	   });
-	</script>
-
 <div class="container">
     <form action="get" id="site_search">
         <div class="input-group">
