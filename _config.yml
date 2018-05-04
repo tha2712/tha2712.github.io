@@ -25,7 +25,7 @@ description: Welcome to thachtha
 navbar-links:
   Home: "http://thachtha.me"
   Contact: "contact"
-nav-search: "search"
+  nav-search: "search"
   #Resources: (bỏ dấu thăng ở phía trước resources để trở về mặc định hoặc có chỉnh sửa)
     #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"  (tương tự như trên)
     #- Learn markdown: "http://www.markdowntutorial.com/" (tương tự như trên)
