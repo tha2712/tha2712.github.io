@@ -10,12 +10,12 @@ css: "/css/index.css"
 <div class="list-filters">
   <a href="/" class="list-filter">All posts</a>
   <a href="/popular" class="list-filter">Most Popular</a>
-  <span class="list-filter filter-selected">Tổng Hợp</span>
+  <span class="list-filter filter-selected">Tutorials</span>
   <a href="/tags" class="list-filter">Tags Index</a>
 </div>
 
 <div class="posts-list">
-  {% for post in site.tags.tonghop %}
+  {% for post in site.tags.tutorial %}
   <article>
     <a class="post-preview" href="{{ post.url | prepend: site.baseurl }}">
 	    <h2 class="post-title">{{ post.title }}</h2>
