@@ -9,7 +9,7 @@ css: "/css/index.css"
 
 <div class="list-filters">
   <a href="/" class="list-filter">All posts</a>
-  <a href="/popular" class="list-filter">Most popular</a>
+  <a href="/popular" class="list-filter">Most Popular</a>
   <span class="list-filter filter-selected">Tổng Hợp</span>
   <a href="/tags" class="list-filter">Tags Index</a>
 </div>
